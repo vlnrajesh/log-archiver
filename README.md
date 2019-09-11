@@ -1,4 +1,6 @@
 # log-archiver
+[![Circle CI](https://circleci.com/gh/vlnrajesh/log-archiver/tree/master.svg?style=shield)](https://circleci.com/gh/vlnrajesh/log-archiver/tree/master) [![Coverage Status](https://coveralls.io/repos/github/vlnrajesh/log-archiver/badge.svg?branch=master)](https://coveralls.io/github/vlnrajesh/log-archiver?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver)
+
 Log archiver for cloud platforms
 ## Problem
 Organization rely on logs for understanding many business critical functions, application behaviour and user activities such as, operations
@@ -16,6 +18,5 @@ Package:
 3. apply_size_filter: Apply size filters to given file. Size of file calculated only in Bytes not in bits
 4. apply_age_filter: Apply age filters to given file. Age of file calculated in seconds
 5. apply_filter: Read each element of initial file list and apply size and age filters. If filters were success upload files to S3.
-6. s3_upload_file: Given file will be uploaded to S3 as a multipart object. This method adds hostname plus current date of upload 
-        as additional directory path 
-
+6. s3_upload_file: Given file will be uploaded to S3 as a multipart object. This method adds hostname plus current date of upload
+        as additional directory path

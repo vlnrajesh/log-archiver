@@ -4,8 +4,8 @@ import (
 	"flag"
 )
 
+//CmdLineParser is parse command line options and validate inputs
 func CmdLineParser() {
-	// Read Command Line Operations and validate
 	var confFile string
 	const confFileUsageString = "Configuration file to read"
 	flag.StringVar(&confFile, "--conf", "/etc/log-archiver.json", confFileUsageString)
