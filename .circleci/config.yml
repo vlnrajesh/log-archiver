@@ -21,3 +21,5 @@ jobs:
             go tool cover -html cp.out -o /tmp/artifacts/coverage.html
       - store_artifacts:
           path: /tmp/artifacts
+      - store_test_results:
+          path: t/tmp/artifacts
