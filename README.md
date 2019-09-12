@@ -1,5 +1,5 @@
 # log-archiver
-[![Circle CI](https://circleci.com/gh/vlnrajesh/log-archiver/tree/master.svg?style=shield)](https://circleci.com/gh/vlnrajesh/log-archiver/tree/master) [![Coverage Status](https://coveralls.io/repos/github/vlnrajesh/log-archiver/badge.svg?branch=master)](https://coveralls.io/github/vlnrajesh/log-archiver?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver)
+[![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=svg)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver)
 
 Log archiver for cloud platforms
 ## Problem
