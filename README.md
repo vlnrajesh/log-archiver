@@ -1,5 +1,5 @@
 # log-archiver
-[![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=svg)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver)
+[![GoDoc](https://godoc.org/github.com/vlnrajesh/log-archiver?status.svg)](http://godoc.org/github.com/vlnrajesh/log-archiver) [![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=svg)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver)
 
 Log archiver for cloud platforms
 ## Problem
