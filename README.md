@@ -1,5 +1,5 @@
 # log-archiver
-[![GoDoc](https://godoc.org/github.com/vlnrajesh/log-archiver?status.svg)](http://godoc.org/github.com/vlnrajesh/log-archiver) [![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=svg)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver)
+[![GoDoc](https://godoc.org/github.com/vlnrajesh/log-archiver?status.svg)](http://godoc.org/github.com/vlnrajesh/log-archiver) [![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=shield)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver) [![HitCount](http://hits.dwyl.io/vlnrajesh/log-archiver.svg)](http://hits.dwyl.io/vlnrajesh/log-archiver
 
 Log archiver for cloud platforms
 ## Problem
@@ -20,3 +20,4 @@ Package:
 5. apply_filter: Read each element of initial file list and apply size and age filters. If filters were success upload files to S3.
 6. s3_upload_file: Given file will be uploaded to S3 as a multipart object. This method adds hostname plus current date of upload
         as additional directory path
+7. blob_storage: Given file will be uploaded to Azure storage blob. This method adds hostname plus current date of upload as additional directory path
