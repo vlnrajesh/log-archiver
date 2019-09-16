@@ -1,5 +1,5 @@
 # log-archiver
-[![GoDoc](https://godoc.org/github.com/vlnrajesh/log-archiver?status.svg)](http://godoc.org/github.com/vlnrajesh/log-archiver) [![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=shield)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver) [![HitCount](http://hits.dwyl.io/vlnrajesh/log-archiver.svg)](http://hits.dwyl.io/vlnrajesh/log-archiver
+[![GoDoc](https://godoc.org/github.com/vlnrajesh/log-archiver?status.svg)](http://godoc.org/github.com/vlnrajesh/log-archiver) [![CircleCI](https://circleci.com/gh/vlnrajesh/log-archiver.svg?style=shield)](https://circleci.com/gh/vlnrajesh/log-archiver) [![Go Report Card](https://goreportcard.com/badge/github.com/vlnrajesh/log-archiver)](https://goreportcard.com/report/github.com/vlnrajesh/log-archiver) [![HitCount](http://hits.dwyl.io/vlnrajesh/log-archiver.svg)](http://hits.dwyl.io/vlnrajesh/log-archiver)
 
 Log archiver for cloud platforms
 ## Problem
@@ -12,7 +12,7 @@ applications, we require an additional storage location to preserve these logs f
 
 
 
-Package:
+methods:
 1. set_logger: This method is used to facilitate console and file log handlers
 2. file_matrix: Read Configuration file for important sections and finalize initial file matrix
 3. apply_size_filter: Apply size filters to given file. Size of file calculated only in Bytes not in bits
